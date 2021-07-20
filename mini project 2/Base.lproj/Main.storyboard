@@ -1,24 +1,463 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dUy-r3-RN7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="rKh-lB-VXr">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="dUy-r3-RN7" customClass="ViewController" customModule="mini_project_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CmM-DR-yla">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1s-Sq-2Vj">
+                                <rect key="frame" x="19" y="258" width="375" height="268"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="THE MOVIE FRANCHISE QUESTIONAIRE">
+                                        <attributes>
+                                            <font key="NSFont" size="48" name="DINAlternate-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="1" green="0.69411764710000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="4" height="1"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TCG-yX-oa7">
+                                <rect key="frame" x="135" y="522" width="143" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="START">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="26" name="DINAlternate-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="tCa-kb-rhz" kind="show" id="27D-Ou-OTc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kQy-aY-Bfn"/>
+                        <color key="backgroundColor" red="0.64313725489999995" green="0.28235294119999998" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8qg-yx-hoX" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-157" y="93"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="R1Q-88-rmk">
+            <objects>
+                <viewController id="tCa-kb-rhz" customClass="SecondViewController" customModule="mini_project_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Tn-lg-Vlb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TdI-Vb-Err">
+                                <rect key="frame" x="251" y="742" width="143" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="NEXT">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="26" name="DINAlternate-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="eve-vl-Ot0" kind="show" id="BPa-Bm-vjE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVs-Zs-tlf">
+                                <rect key="frame" x="9" y="45" width="396" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="What Hogwarts house would you be in?">
+                                        <attributes>
+                                            <font key="NSFont" size="40" name="DINAlternate-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iaK-lq-YN0">
+                                <rect key="frame" x="89" y="202" width="236" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Ravenclaw">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Ravenclaw">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="DINAlternate-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="ravenclawTapped:" destination="tCa-kb-rhz" eventType="touchUpInside" id="aT4-Ur-U1H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a4w-iR-Sp4">
+                                <rect key="frame" x="89" y="279" width="236" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Ravenclaw">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Gryffindor">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="DINAlternate-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="gryffindorTapped:" destination="tCa-kb-rhz" eventType="touchUpInside" id="ecL-7O-Agb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6dQ-kF-gBW">
+                                <rect key="frame" x="89" y="361" width="236" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Ravenclaw">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Slytherin">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="DINAlternate-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="slytherinTapped:" destination="tCa-kb-rhz" eventType="touchUpInside" id="dP0-SX-FUv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MXH-8D-p4B">
+                                <rect key="frame" x="89" y="435" width="236" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Ravenclaw">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Hufflepuff">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="DINAlternate-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="hufflepuffTapped:" destination="tCa-kb-rhz" eventType="touchUpInside" id="HKn-sU-4PZ"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ravenclaw" translatesAutoresizingMaskIntoConstraints="NO" id="TiP-J8-tme">
+                                <rect key="frame" x="35" y="513" width="345" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="L2n-IU-wHh"/>
+                        <color key="backgroundColor" red="0.64313725489999995" green="0.28235294119999998" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bEY-88-cFt"/>
+                    <connections>
+                        <outlet property="gryffindorImage" destination="TiP-J8-tme" id="mU0-TQ-6lY"/>
+                        <outlet property="hogwartsImage" destination="TiP-J8-tme" id="qEa-DC-XG0"/>
+                        <outlet property="hufflepuffImage" destination="TiP-J8-tme" id="qP6-HZ-Lsr"/>
+                        <outlet property="ravenclawImage" destination="iaK-lq-YN0" id="taE-1C-k0L"/>
+                        <outlet property="slytherinImage" destination="TiP-J8-tme" id="1cX-xg-zVf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ed-AV-W94" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="627.536231884058" y="91.741071428571431"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="Yhk-7i-ICo">
+            <objects>
+                <viewController id="eve-vl-Ot0" customClass="ThirdViewController" customModule="mini_project_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Kl-6Z-Trc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j9T-7X-kwq">
+                                <rect key="frame" x="251" y="736" width="143" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="NEXT">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="26" name="DINAlternate-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="Uw4-7a-BKw" kind="show" id="ydY-mW-bXp"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sequels" translatesAutoresizingMaskIntoConstraints="NO" id="fej-uq-ub7">
+                                <rect key="frame" x="68" y="464" width="293" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rP-2E-7OV">
+                                <rect key="frame" x="15" y="40" width="385" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Which is the best Star Wars Trilogy">
+                                        <attributes>
+                                            <font key="NSFont" size="40" name="DINAlternate-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W9X-Ra-jPN">
+                                <rect key="frame" x="89" y="293" width="236" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Ravenclaw">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Original">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="DINAlternate-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="originalTapped:" destination="eve-vl-Ot0" eventType="touchUpInside" id="BPR-Sr-ocd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eXc-uX-U4y">
+                                <rect key="frame" x="89" y="379" width="236" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Ravenclaw">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Sequels">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="DINAlternate-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="sequelsTapped:" destination="eve-vl-Ot0" eventType="touchUpInside" id="RN7-SD-zMB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UP8-gV-a3W">
+                                <rect key="frame" x="89" y="203" width="236" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Ravenclaw">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Prequels">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="DINAlternate-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="prequelsTapped:" destination="eve-vl-Ot0" eventType="touchUpInside" id="zOa-nG-T34"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zYm-UY-II3"/>
+                        <color key="backgroundColor" red="0.64313725489999995" green="0.28235294119999998" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="K7H-22-z02"/>
+                    <connections>
+                        <outlet property="originalImage" destination="fej-uq-ub7" id="Qjk-aG-MYj"/>
+                        <outlet property="prequelsImage" destination="fej-uq-ub7" id="VeD-zk-gbt"/>
+                        <outlet property="sequelsImage" destination="fej-uq-ub7" id="JDQ-Mn-vkh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iKB-06-fgZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1310" y="100"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="tI7-if-5zn">
+            <objects>
+                <viewController id="Uw4-7a-BKw" customClass="FourthViewController" customModule="mini_project_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ics-8X-E1c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFF-1n-RUR">
+                                <rect key="frame" x="-18" y="38" width="450" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Whose your favorite Marvel superhero?">
+                                        <attributes>
+                                            <font key="NSFont" size="40" name="DINAlternate-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k8B-YU-59N">
+                                <rect key="frame" x="251" y="737" width="143" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="NEXT">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="26" name="DINAlternate-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jPc-rf-9Mf">
+                                <rect key="frame" x="89" y="188" width="236" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Ravenclaw">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Iron Man">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="DINAlternate-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="ironmanTapped:" destination="Uw4-7a-BKw" eventType="touchUpInside" id="ZEy-qR-BEj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Zw-vP-Bqe">
+                                <rect key="frame" x="89" y="264" width="236" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Ravenclaw">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Black Widow">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="DINAlternate-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="blackwidowTapped:" destination="Uw4-7a-BKw" eventType="touchUpInside" id="DzT-IB-Gf0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bsm-iv-rMN">
+                                <rect key="frame" x="89" y="419" width="236" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Ravenclaw">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Spiderman">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="DINAlternate-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="spidermanTapped:" destination="Uw4-7a-BKw" eventType="touchUpInside" id="0Ob-o2-GhY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hWp-RE-w8r">
+                                <rect key="frame" x="89" y="342" width="236" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Ravenclaw">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Captain America">
+                                            <attributes>
+                                                <font key="NSFont" size="30" name="DINAlternate-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="captainamericaTapped:" destination="Uw4-7a-BKw" eventType="touchUpInside" id="ZEZ-r2-lxw"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Spiderman" translatesAutoresizingMaskIntoConstraints="NO" id="6Lf-5x-98r">
+                                <rect key="frame" x="77" y="494" width="261" height="189"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="261" id="2di-Fb-SQz"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CF8-xX-7JE"/>
+                        <color key="backgroundColor" red="0.64313725489999995" green="0.28235294119999998" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eay-S0-jsz"/>
+                    <connections>
+                        <outlet property="blackwidowImage" destination="6Lf-5x-98r" id="YBn-Ks-OqY"/>
+                        <outlet property="captainamericaImage" destination="6Lf-5x-98r" id="0lN-sU-vHq"/>
+                        <outlet property="ironmanImage" destination="6Lf-5x-98r" id="Sot-8Y-lEs"/>
+                        <outlet property="spidermanImage" destination="6Lf-5x-98r" id="sab-hu-NaY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K7k-UQ-3Sm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2060.8695652173915" y="99.776785714285708"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Ravenclaw" width="204" height="247"/>
+        <image name="Spiderman" width="640" height="400"/>
+        <image name="sequels" width="1710" height="900"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

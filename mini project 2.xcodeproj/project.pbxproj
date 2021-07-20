@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F496585426A297C8003909CE /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496585326A297C8003909CE /* ThirdViewController.swift */; };
 		F4E33F8726A14ADD008DCF66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E33F8626A14ADD008DCF66 /* AppDelegate.swift */; };
 		F4E33F8926A14ADD008DCF66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E33F8826A14ADD008DCF66 /* SceneDelegate.swift */; };
 		F4E33F8B26A14ADD008DCF66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E33F8A26A14ADD008DCF66 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		F4E33F9626A14ADE008DCF66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E33F9426A14ADE008DCF66 /* LaunchScreen.storyboard */; };
 		F4E33FA126A14ADE008DCF66 /* mini_project_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E33FA026A14ADE008DCF66 /* mini_project_2Tests.swift */; };
 		F4E33FAC26A14ADE008DCF66 /* mini_project_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E33FAB26A14ADE008DCF66 /* mini_project_2UITests.swift */; };
+		F4E33FBE26A1F52C008DCF66 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E33FBD26A1F52C008DCF66 /* SecondViewController.swift */; };
+		F4FACC4226A2BF98008319D1 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FACC4126A2BF98008319D1 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F496585326A297C8003909CE /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		F4E33F8326A14ADD008DCF66 /* mini project 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mini project 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E33F8626A14ADD008DCF66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E33F8826A14ADD008DCF66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		F4E33FA726A14ADE008DCF66 /* mini project 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mini project 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E33FAB26A14ADE008DCF66 /* mini_project_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mini_project_2UITests.swift; sourceTree = "<group>"; };
 		F4E33FAD26A14ADE008DCF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E33FBD26A1F52C008DCF66 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F4FACC4126A2BF98008319D1 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,13 @@
 		F4E33F8526A14ADD008DCF66 /* mini project 2 */ = {
 			isa = PBXGroup;
 			children = (
+				F496585326A297C8003909CE /* ThirdViewController.swift */,
 				F4E33F8626A14ADD008DCF66 /* AppDelegate.swift */,
 				F4E33F8826A14ADD008DCF66 /* SceneDelegate.swift */,
 				F4E33F8A26A14ADD008DCF66 /* ViewController.swift */,
 				F4E33F8C26A14ADD008DCF66 /* Main.storyboard */,
+				F4FACC4126A2BF98008319D1 /* FourthViewController.swift */,
+				F4E33FBD26A1F52C008DCF66 /* SecondViewController.swift */,
 				F4E33F9226A14ADE008DCF66 /* Assets.xcassets */,
 				F4E33F9426A14ADE008DCF66 /* LaunchScreen.storyboard */,
 				F4E33F9726A14ADE008DCF66 /* Info.plist */,
@@ -264,6 +273,9 @@
 				F4E33F8B26A14ADD008DCF66 /* ViewController.swift in Sources */,
 				F4E33F8726A14ADD008DCF66 /* AppDelegate.swift in Sources */,
 				F4E33F8926A14ADD008DCF66 /* SceneDelegate.swift in Sources */,
+				F4FACC4226A2BF98008319D1 /* FourthViewController.swift in Sources */,
+				F4E33FBE26A1F52C008DCF66 /* SecondViewController.swift in Sources */,
+				F496585426A297C8003909CE /* ThirdViewController.swift in Sources */,
 				F4E33F9126A14ADD008DCF66 /* mini_project_2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
